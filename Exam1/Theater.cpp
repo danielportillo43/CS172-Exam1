@@ -14,6 +14,22 @@ Theater::Theater(string Name, string Phone) {
 }
 
 void Theater::AddMovie(Movie& m) {
+    // I think we need to create an object array of the movies
     
-    
+}
+
+string Theater::GetMovieForHour(int Hour) {
+    // step through the movie list and compare Hour to showtime
+}
+
+int Theater::GetShowTimeForGenre(string Genre) {
+    // step through the movie list and compare Genre to genre
+}
+
+int Theater::GetPopcornPrice() {
+    return 1;
+}
+
+int Theater::GetCokePrice() {
+    return -5;
 }

@@ -26,7 +26,7 @@ class Theater {
 public:
     Movie movieList[n];
     Theater(string Name, string Phone); //The name and number for this theater
-    void AddMovie(Movie& Movie); //Add a movie at a specific time
+    void AddMovie(Movie& Movie); //Add a movie at a specific time -- I am not sure what this is asking for
     string GetMovieForHour(int Hour);  //Return the movie shown at or after the given hour
                                       //   Return "" if none are upcoming
     int GetShowTimeForGenre(string Genre);//When will the movie of the given genre be shown?
